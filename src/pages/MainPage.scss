@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  background-color: var(--bg);
+}
+.topic {
+  display: flex;
+  flex-direction: row;
+
+  min-width: 1288px;
+  height: 592px;
+
+  border-radius: 8px;
+  background: #f7f1fe;
+  @media (min-width: 320px) and( max-width: 1366px) {
+    min-width: 960px;
+    height: 582px;
+  }
+  @media (max-width: 320px) {
+    align-items: center;
+    flex-direction: column;
+
+    min-width: 320px;
+    height: 1698px;
+  }
+}
