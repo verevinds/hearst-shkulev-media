@@ -1,7 +1,6 @@
 import React from 'react';
-import Enzyme, { shallow, mount } from 'enzyme';
+import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import renderer, { act } from 'react-test-renderer';
 import toJson from 'enzyme-to-json';
 import imgTenStars from 'image5.png';
 import imgMovieAndReal from 'image4.png';
