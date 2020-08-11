@@ -15,39 +15,55 @@ import './MainPage.scss';
 const MainPage: React.FC = () => {
   const contentOne: TContent[] = [
     {
+      id: 1,
       title: 'Он и она',
       urlImg: imgTenStars,
       text: '10 звезд, которые любили простых парней, но замуж за них не пошли',
     },
     {
+      id: 2,
+
       urlImg: imgMovieAndReal,
       text: 'Кино и реальность: как бы развивались отношения на самом деле',
     },
-    { urlImg: imgSevenHabits, text: '7 привычек, которые важно воспитать в себе до замужества' },
+    {
+      id: 3,
+      urlImg: imgSevenHabits,
+      text: '7 привычек, которые важно воспитать в себе до замужества',
+    },
   ];
   const contentTwo: TContent[] = [
     {
+      id: 1,
       title: 'Дети',
       urlImg: imgTatuAndPiercing,
       text: 'И тату, и пирсинг: эксперименты со внешностью звездных детей',
     },
     {
+      id: 2,
       urlImg: imgFiveSkills,
       text: '5 навыков и качеств, которых гаджеты лишили наших детей',
     },
-    { urlImg: imgSevenBadHabits, text: '7 привычек, которые важно воспитать в себе до замужества' },
+    {
+      id: 3,
+      urlImg: imgSevenBadHabits,
+      text: '7 привычек, которые важно воспитать в себе до замужества',
+    },
   ];
   const contentThree: TContent[] = [
     {
+      id: 1,
       title: 'Стиль жизни',
       urlImg: imgTabooSocials,
       text: 'Стоит ли отказываться от социальных сетей на неделю',
     },
     {
+      id: 2,
       urlImg: imgRomanticRecord,
       text: 'В России установили один из самых романтичных рекордов',
     },
     {
+      id: 3,
       urlImg: imgPresentMan,
       text: 'Что подарить мужчине, чтобы ему это понравилось: 100+ идей',
     },

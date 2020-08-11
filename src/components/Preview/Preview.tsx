@@ -5,7 +5,7 @@ export interface IPreview {
   contents: TContent[];
 }
 
-export type TContent = { title?: string; urlImg: any; text: string };
+export type TContent = { id: number; title?: string; urlImg: any; text: string };
 
 const Preview: React.FC<IPreview> = ({ contents }) => {
   return (
@@ -13,7 +13,7 @@ const Preview: React.FC<IPreview> = ({ contents }) => {
       {contents.map((content: TContent, index: number) => {
         if (!index) {
           return (
-            <article className='content__big' key={Math.random()}>
+            <article className='content__big' key={content.id}>
               <figure className='content__big__figure'>
                 {content.title ? (
                   <figcaption className='content__big__title'>{content.title}</figcaption>
@@ -26,7 +26,7 @@ const Preview: React.FC<IPreview> = ({ contents }) => {
         }
 
         return (
-          <article className='content__small' key={Math.random()}>
+          <article className='content__small' key={content.id}>
             <figure className='content__small__figure'>
               {content.title ? (
                 <figcaption className='content__small__title'>{content.title}</figcaption>
