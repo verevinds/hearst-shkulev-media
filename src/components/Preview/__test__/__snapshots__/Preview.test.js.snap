@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Preview /> render success 1`] = `
+<section
+  className="content"
+>
+  <article
+    className="content__big"
+    key="1"
+  >
+    <figure
+      className="content__big__figure"
+    >
+      <figcaption
+        className="content__big__title"
+      >
+        Он и она
+      </figcaption>
+      <img
+        alt="Он и она"
+        className="content__big__img"
+        src={null}
+      />
+    </figure>
+    <aside
+      className="content__big__text"
+    >
+      10 звезд, которые любили простых парней, но замуж за них не пошли
+    </aside>
+  </article>
+  <article
+    className="content__small"
+    key="2"
+  >
+    <figure
+      className="content__small__figure"
+    >
+      <img
+        className="content__small__img"
+        src={null}
+      />
+    </figure>
+    <aside
+      className="content__small__text"
+    >
+      Кино и реальность: как бы развивались отношения на самом деле
+    </aside>
+  </article>
+  <article
+    className="content__small"
+    key="3"
+  >
+    <figure
+      className="content__small__figure"
+    >
+      <img
+        className="content__small__img"
+        src={null}
+      />
+    </figure>
+    <aside
+      className="content__small__text"
+    >
+      7 привычек, которые важно воспитать в себе до замужества
+    </aside>
+  </article>
+</section>
+`;
